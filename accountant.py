@@ -1,5 +1,6 @@
 import sys
 
+ALLOWED_MODES = ('konto', 'magazyn') # dozwolone tryby programu
 ALLOWED_COMMANDS = ('saldo', 'zakup', 'sprzedaz', 'stop') # dozwolone komendy
 
 mode = sys.argv[1] # tryb programu
