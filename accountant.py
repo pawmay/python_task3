@@ -11,6 +11,9 @@ store = {
 } # magazyn
 logs = [] # historia operacji
 
+if mode not in ALLOWED_MODES:
+    print("Niedozwolony tryb programu!")
+
 while True:
     command = input("Wpisz komendę: ")
 
